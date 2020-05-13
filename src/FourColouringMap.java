@@ -12,7 +12,7 @@ public class FourColouringMap {
 
     //Note to ourselves- Chromosome/creature=Map, genes=Polygons
     public static void main(String[] args) {
-        int populationSize = 10;
+        int populationSize = 100;
         List<Chromosome> chromosomesList = new ArrayList<>();
         //Generate random Maps coloring Solutions
         for (int i = 0; i < populationSize; i++) {
